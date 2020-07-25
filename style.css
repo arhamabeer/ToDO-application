@@ -1,0 +1,55 @@
+body{
+
+    text-align: center;
+    background-color: darkslategrey;
+    color: white;
+    font-size: large;
+}
+#input{
+    height: 30px;
+    background-color: darkgrey;
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+}
+#input:focus{
+    background-color: grey;
+}
+.btn{
+    background-color: navy;
+    margin-left: 5%;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: blue;
+}
+li{
+    margin: 20px;
+}
+.main{
+    margin: 100px;
+    
+}
+
+
+
+
+@media (min-width:320px) and (max-width:767px){
+    body{
+        margin: 0;
+        width: 100%;
+    }
+    .main{
+        margin: 0;
+        margin-top: 20%;
+    }
+    .btn{
+        margin: 10px;
+    }
+    li{
+        margin: 00px;
+    }
+}
